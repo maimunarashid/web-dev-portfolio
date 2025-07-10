@@ -134,3 +134,33 @@ color: #757575;
 .resume-download-cv{
     margin-top:50px ;
 }
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    border: none;
+    margin-bottom: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px 20px;
+    display: block;
+    height: 64px;
+    border-radius: 5px;
+}
+.submit-btn{
+background-color: #FD6E0A;
+font-size: 20px;
+border: none;
+font-weight: bold;
+color: white;
+padding: 18px;
+border-radius: 5px;
+}
